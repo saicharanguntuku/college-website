@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Order food and Get Bill</h2>
+    <header>
+        <table border="1"> 
+            <tr>
+                <th>dish name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <th>Cofee</th>
+                <td>100</td>
+                <td><input type="text" id="i1"></td>
+            </tr>
+            <tr>
+                <th> Hot Cofee</th>
+                <td>200</td>
+                <td><input type="text" id="i2"></td>
+            </tr>
+            <tr>
+                <th>Chicken Rice</th>
+                <td>300</td>
+                <td><input type="text" id="i3"></td>
+            </tr>
+            <tr>
+                <th>Chinese</th>
+                <td>400</td>
+                <td><input type="text" id="i4"></td>
+            </tr>
+            <tr>
+                <th>Fries</th>
+                <td>500</td>
+                <td><input type="text" id="i5"></td>
+            </tr>
+        </table>
+    </header>
+        <table align="center">
+            <tr>
+                <th><button onclick="display()">Get Bill</button></th>
+                <th><td id="final"></td></th>
+            </tr>
+        </table>
+    <script src="rbill.js"></script>
+</body>
+</html>
